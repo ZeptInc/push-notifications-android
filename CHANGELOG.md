@@ -6,6 +6,26 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.4.4] - 2019-07-30
+
+### Fixed
+- Fix issue #85 JsonEncodingException when loading stored pending operations
+
+## [1.4.3] - 2019-06-07
+
+### Changed
+- Update persistent storage layer to use JSON
+
+## [1.4.2] - 2019-05-31
+
+### Fixed
+- Fix issue #77 Invalid Class Exceptions in Tape
+
+## [1.4.1] - 2019-05-24
+
+### Fixed
+- Improved support for future versions of Firebase
+
 ## [1.4.0] - 2019-03-26
 
 ### Added
@@ -82,7 +102,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
  - Support for initial interest set, which enables migration from 3rd-party services
  - Implemented `setOnSubscriptionsChangedListener` which allows user to register a callback when subscriptions change
- 
+
 
 ## [0.10.0] - 2018-04-23
 
