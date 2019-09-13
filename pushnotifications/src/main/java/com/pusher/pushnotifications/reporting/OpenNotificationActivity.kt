@@ -32,9 +32,9 @@ class OpenNotificationActivity: Activity() {
 
         i.replaceExtras(bundle)
 
-        val link: String?
-        link = i.getStringExtra("link")
-        if(link != null) {
+        val link: String? = i.getStringExtra("link")
+        log.i("Link: $link")
+        if(link != null && link.isNotEmpty()) {
           log.i("Got URI for action $link")
           i.setData(Uri.parse(link))
         }
